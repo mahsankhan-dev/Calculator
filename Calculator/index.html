@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Images/Capture.PNG">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="myInput">
+      <input readonly type="text" name="" id="field">
+    </div>
+    <div class="buttons">
+      <button onclick="getResult(7)">7</button>
+      <button onclick="getResult(8)">8</button>
+      <button onclick="getResult(9)">9</button>
+      <button onclick="getResult('+')">+</button>
+    </div>
+
+    <div class="buttons">
+      <button onclick="getResult(4)">4</button>
+      <button onclick="getResult(5)">5</button>
+      <button onclick="getResult(6)">6</button>
+      <button onclick="getResult('-')">-</button>
+    </div>
+
+    <div class="buttons">
+      <button onclick="getResult(3)">3</button>
+      <button onclick="getResult(2)">2</button>
+      <button onclick="getResult(1)">1</button>
+      <button onclick="getResult('*')">x</button>
+    </div>
+
+    <div class="buttons">
+      <button onclick="getResult(0)">0</button>
+      <button onclick="getResult('/')">/</button>
+      <button onclick="showResult()">=</button>
+      <button onclick="deleteItem()">DEL</button>
+    </div>
+    <div class="buttons">
+      <button onclick="clearItem()">CE</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
